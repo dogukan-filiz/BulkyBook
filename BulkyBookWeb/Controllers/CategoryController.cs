@@ -28,10 +28,14 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())
+            if (obj.DisplayOrder != null)
             {
-                ModelState.AddModelError("CustomError", "The DisplayOrder cannot exactly match the Name.");
+                if (obj.Name == obj.DisplayOrder.ToString())
+                {
+                    ModelState.AddModelError("CustomError", "The DisplayOrder cannot exactly match the Name.");
+                }
             }
+
             if (ModelState.IsValid) 
             {
                 _db.Categories.Add(obj);
