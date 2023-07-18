@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
+    "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
+    "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectUniqueName": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "projectName": "BulkyBookWeb",
-        "projectPath": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectPath": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "packagesPath": "C:\\Users\\doguk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBookWeb\\obj\\",
+        "outputPath": "C:\\Users\\doguk\\source\\repos\\BulkyBook\\BulkyBook\\BulkyBookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,12 @@
               "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             }
